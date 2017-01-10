@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms, Inputs and Textarea</title>
+</head>
+<body>
+	<div class="form-one">
+		<form>
+			<p><label>Customer Name: <input /></label></p>
+			<p><label>Street Address: <input /></label></p>
+			<p><label>City: <input /></label></p>
+			<p><label>State: <input /></label></p>
+			<p><label>Telephone Number: <input /></label></p>
+		</form>
+	<br />
+	<div class="form-two">
+		<form>
+			<fieldset>
+				<legend>Customer Information</legend>
+				<p><label>Customer Name: <input /></label></p>
+				<p><label>Street Address: <input /></label></p>
+				<p><label>City: <input /></label></p>
+				<p><label>State: <input /></label></p>
+				<p><label>Telephone Number: <input /></label></p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<div class="form-three">
+		<form>
+			<fieldset>
+			<!-- Radio is type of button/ id used to target from CSS/ name is used to target later in possibly JS jQuery, Good to label them differently -->
+				<legend>Pancake Palace</legend>
+					<p><input type="radio" name="Dog" id="size1" />Power Pancake</p>
+					<p><input type="radio" name="Echo" id="size2" />Panic Pancake</p>
+					<p><input type="radio" name="Foxtrot" id="size3" />Pondering Pancake</p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<div class="form-four">
+		<form>
+			<fieldset>
+				<legend>Toppings</legend>
+					<p><input type="checkbox" name="Alpha" id="topping1" />Stuff</p>
+					<p><input type="checkbox" name="Bravo" id="topping2" />Things</p>
+					<p><input type="checkbox" name="Charlie" id="topping3" />Whatever</p>
+			</fieldset>
+		</form>		
+	</div>
+	<div class="form-five">
+		<form>
+			<fieldset>
+			<!--step, measuring time increments and goes by the minute -->
+					<p><label>Preferred delivery time: <input type="time" min="11:00" max="21:00" step="900"></label>Stuff</p>
+					<p><label>Delivery instructions: </label></p>
+					<p><button>Submit Order</button></p>
+			</fieldset>
+		</form>		
+	</div>
+</body>
+</html>
